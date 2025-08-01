@@ -1,0 +1,132 @@
+<mxfile host="app.diagrams.net" modified="2024-06-18T04:45:02.694Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="QvYshAsvOklwNR0HcJAn" version="24.5.5" type="google">
+  <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFazZHu3gMtS2DmHhX8x-15" target="SFazZHu3gMtS2DmHhX8x-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-15" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="108.75" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFazZHu3gMtS2DmHhX8x-16" target="SFazZHu3gMtS2DmHhX8x-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-16" value="Recibe asignación de donante" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="63.75" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFazZHu3gMtS2DmHhX8x-17" target="SFazZHu3gMtS2DmHhX8x-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-17" value="Revisa dirección y geolocalización" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="63.75" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFazZHu3gMtS2DmHhX8x-18" target="SFazZHu3gMtS2DmHhX8x-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-18" value="Se dirige al domicilio" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="63.75" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFazZHu3gMtS2DmHhX8x-19" target="SFazZHu3gMtS2DmHhX8x-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-42" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="SFazZHu3gMtS2DmHhX8x-41">
+          <mxGeometry x="0.1691" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFazZHu3gMtS2DmHhX8x-19" target="SFazZHu3gMtS2DmHhX8x-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-65" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="SFazZHu3gMtS2DmHhX8x-48">
+          <mxGeometry x="-0.0934" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-19" value="¿Se encuentra &lt;br&gt;donante en domicilio?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="41.25" y="630" width="165" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-30" value="Crea nuevo informe de visita" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="63.75" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-31" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;" edge="1" parent="1" source="SFazZHu3gMtS2DmHhX8x-30" target="SFazZHu3gMtS2DmHhX8x-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="123.75" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFazZHu3gMtS2DmHhX8x-33" target="SFazZHu3gMtS2DmHhX8x-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-37" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="SFazZHu3gMtS2DmHhX8x-36">
+          <mxGeometry x="-0.0338" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFazZHu3gMtS2DmHhX8x-33" target="SFazZHu3gMtS2DmHhX8x-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-45" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="SFazZHu3gMtS2DmHhX8x-44">
+          <mxGeometry x="0.1389" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-33" value="¿Encontró el domicilio?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="41.25" y="440" width="165" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFazZHu3gMtS2DmHhX8x-34" target="SFazZHu3gMtS2DmHhX8x-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-34" value="Indica situación como DOMICILIO_NO_ENCONTRADO" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="378.75" y="490" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-38" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="478.75" y="580" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFazZHu3gMtS2DmHhX8x-40" target="SFazZHu3gMtS2DmHhX8x-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-40" value="Indica situación como&lt;br&gt;DONANTE_AUSENTE" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="378.75" y="680" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFazZHu3gMtS2DmHhX8x-46" target="SFazZHu3gMtS2DmHhX8x-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-46" value="Escanéa QR de bidones que retira del domicilio y los carga en el vehículo" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="830" width="187.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFazZHu3gMtS2DmHhX8x-49" target="SFazZHu3gMtS2DmHhX8x-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-49" value="Escanéa QR de bidones, asignados a la donante, que descarga del vehículo y deja en el domicilio" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="935" width="187.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFazZHu3gMtS2DmHhX8x-52" target="SFazZHu3gMtS2DmHhX8x-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="718.75" y="355" />
+              <mxPoint x="718.75" y="595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-52" value="Se crea nueva solicitud asociada a donante,de tipo RECLAMO, indicando problema de domicilio, y asociandolo a este informe de visita" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="381.25" y="310" width="225" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFazZHu3gMtS2DmHhX8x-59" target="SFazZHu3gMtS2DmHhX8x-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-59" value="Indica situación como&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;RECOLECCION&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="490" y="950" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SFazZHu3gMtS2DmHhX8x-66" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="590" y="810" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xhzaRrZ2NzlRScoJ5hV4-1" value="ad:&amp;nbsp; Proceso de recolección" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=120;height=50;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-20" width="820" height="1040" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
